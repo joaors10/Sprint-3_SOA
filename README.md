@@ -54,5 +54,8 @@ A aplicação ficará disponível em:
   - `PUT /investimentos/{id}` → Atualizar investimento
   - `DELETE /investimentos/{id}` → Remover investimento
 
-📖 Exemplos completos de requisições e respostas estão disponíveis em:  
-[docs/requests.md](docs/requests.md)
+Os exemplos completos de requisições e respostas para **Clientes** e **Investimentos** estão disponíveis no arquivo:
+
+➡️ `docs/requests.md`
+
+Basta acessar a pasta `docs/` dentro do projeto para visualizar.
