@@ -1,30 +1,43 @@
-X-Profit
-Sistema de gerenciamento de Clientes e Investimentos, desenvolvido em Spring Boot.
+# 💹 X-Profit
+
+Sistema de gerenciamento de **Clientes** e **Investimentos**, desenvolvido em **Spring Boot**.  
 O projeto expõe serviços REST que permitem cadastrar, atualizar, consultar e excluir tanto clientes quanto seus investimentos.
 
-Integrantes do grupo:
+---
 
-Allan Von Ivanov - RM 98705
-João Rodrigo - RM 551319
-Bianca Carvalho Dancs Firsoff - RM 551645
-Giuliano Romaneto Marques - RM 99694
-Arthur Candido de Abreu - RM 98283
+## 👥 Integrantes do grupo
 
-📌 Descrição do Projeto
-O objetivo do sistema é oferecer um CRUD completo para duas entidades principais:
+- Allan Von Ivanov — RM 98705  
+- João Rodrigo — RM 551319  
+- Bianca Carvalho Dancs Firsoff — RM 551645  
+- Giuliano Romaneto Marques — RM 99694  
+- Arthur Candido de Abreu — RM 98283  
 
-Cliente: nome, e-mail, CPF, saldo.
-Investimento: tipo, valor e vínculo com um cliente.
-Cada cliente pode ter vários investimentos, garantindo um relacionamento 1:N.
+---
 
-⚙️ Passos de configuração e execução
-Pré-requisitos
-Java 17+
-Maven 3.8+
-Banco de dados H2 (embutido) ou outro configurado no application.properties
-Como executar
+## 📌 Descrição do Projeto
+
+O objetivo do sistema é oferecer um **CRUD completo** para duas entidades principais:
+
+- **Cliente** → nome, e-mail, CPF, saldo.  
+- **Investimento** → tipo, valor e vínculo com um cliente.  
+
+Cada cliente pode possuir vários investimentos, garantindo um relacionamento **1:N**.
+
+---
+
+## ⚙️ Passos de Configuração e Execução
+
+### 🔹 Pré-requisitos
+- **Java 17+**  
+- **Maven 3.8+**  
+- **Banco H2** (embutido) ou outro configurado em `application.properties`  
+
+### 🔹 Como executar
+
+```bash
 # Clonar o repositório
-https://github.com/joaors10/Sprint-3_SOA
+git clone https://github.com/joaors10/Sprint-3_SOA
 
 # Entrar no diretório
 cd x-profit
@@ -32,7 +45,7 @@ cd x-profit
 # Compilar o projeto
 mvn clean install
 
-# Executar
+# Executar a aplicação
 mvn spring-boot:run
 
 A aplicação ficará disponível em:
